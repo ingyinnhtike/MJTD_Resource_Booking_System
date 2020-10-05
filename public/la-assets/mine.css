@@ -1,0 +1,101 @@
+.dual-list .list-group {
+    margin-top: 8px;
+}
+
+.list-left li, .list-right li {
+    cursor: pointer;
+}
+
+.list-arrows {
+    padding-top: 100px;
+}
+
+.list-arrows button {
+        margin-bottom: 20px;
+}
+
+.custom-table{border-collapse:collapse;width:100%;border:solid 1px #fff;font-family:open sans;font-size:11px}
+            .custom-table th,.custom-table td{text-align:left;padding:8px;border:solid 1px #c0c0c0}
+            .custom-table th{color:#fff; width: 100px; background-color:#36648b;}
+            .custom-table tr:nth-child(odd){background-color:#f7f7ff}
+            .custom-table>thead>tr{background-color:#dde8f7!important}
+            .tbtn{border:0;outline:0;background-color:transparent;font-size:13px;cursor:pointer}
+            .toggler{display:none}
+            .toggler1{display:table-row;}
+            .custom-table a{color: #0033cc;}
+            .custom-table a:hover{color: #f00;}
+            .page-header{background-color: #eee;}
+th.res{
+    background-color: #ededed;
+    color: #000;
+}
+td.res{
+    background-color: #fff;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+td:hover {
+  background-color: #dde8f7;
+ 
+}
+
+/*th:hover {
+  background-color: #dde8f7;
+}*/
+
+table #our_table>td {
+      background-color:#dde8f7;
+    }
+
+table td.res.highlighted {
+      background-color: green;
+    }
+
